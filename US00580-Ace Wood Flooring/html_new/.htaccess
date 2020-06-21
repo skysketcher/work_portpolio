@@ -1,0 +1,6 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks 
+Options +SymLinksIfOwnerMatch
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^acewoodflooringmt.com [NC] 
+RewriteRule ^(.*)$ http://www.acewoodflooringmt.com/$1 [L,R=301]
