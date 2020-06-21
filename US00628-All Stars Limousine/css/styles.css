@@ -1,0 +1,551 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	color: #d0d2d3;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight:400;	
+}
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span, .limo p span {
+	color: #ffdf06;	
+}
+h1 {
+	font-size:2.85em;	
+}
+h2 {
+	font-size:2.57em;	
+}
+
+/*necessary class*/
+.center {text-align:center;}
+.nospace {padding-left:0;}
+.nospace1 {padding-right:0;}
+#rates .rates,#reservation .reservation,#fleet .fleet, #contact .contact {
+	color:#d3b903;
+}
+/*end*/
+header {
+	background:#191d20;
+	color: #fff;		
+}
+.socialIcon, .headerContact a i{
+	font-size: 1.72em;	
+	color: #afb1b2;
+}
+.socialIcon a {
+	background:#474c4f;
+	display:block;
+	float:left;
+	width:40px;
+	height:40px;
+	margin-right:1px;
+	color: #fff;	
+	text-align:center;
+	padding-top:4px;
+}
+.socialIcon a:hover{
+	background: #afb1b2;
+	color:#191d20;
+}
+.headerContact a{
+	color:#fff;	
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+	margin-right:20px;
+}	
+.headerContact a i{
+	padding-right:10px;	
+	font-size:1.14em;
+}
+.headerContact a i:hover{
+	color:#fff;	
+}
+.headerContact a span:hover{
+	text-decoration:underline;	
+}
+.headerContact a i,.headerContact a span{
+	display:inline-block;
+	margin:0 0.75px;
+	text-align:left;
+	vertical-align:middle;
+	padding-top:9px;
+}
+.navbar-default .container {
+	position:relative !important;	
+}
+.navbar {margin-bottom:0 ;	}
+.navbar-default {	
+	z-index:111;
+	background:url(../img/nav_bg.png) center ;
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #000;	
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Raleway', sans-serif;	
+	color: #fff;
+	font-size:1.14em;
+	z-index:1111;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #d3b90e;
+}
+.navbar-default .navbar-nav > li >  span{
+	margin-left:30px;	
+}
+.star {
+	color:#fff !important;	
+	cursor:default !important;
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 52%;
+    top: -8px;
+    text-align: center;
+    margin-left: -150px !important;
+    padding:0;
+	z-index:111;
+	
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+
+  &:hover {
+    background: transparent !important;
+  }
+
+  .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
+
+.navbar-toggle.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
+  .middle-bar {
+    opacity: 1;
+  }
+  .bottom-bar {
+    transform: rotate(0);
+  }
+}
+
+
+/*Slider*/
+
+.slider { /*position:absolute !important;left:0px  !important;top:42px*/ !important;z-index:1;width:100% !important;overflow:hidden;}
+.slider img{width:100% !important;}
+.slick-slider {margin-bottom:0 !important;}
+
+/*Welcome*/
+.welcome {
+	background: #191d20;	
+	padding:20px 0;
+}
+/*service*/
+.service {
+	background: #161619;	
+	padding:20px 0; 	
+}
+.service h1 {
+}
+.serviceIcon {
+	padding-top:45px;	
+}
+.serviceIcon:hover {
+	color:#ffdf06;	
+	cursor:pointer;
+}
+/*icons*/
+.serviceIcon1{
+	width:263px;
+	height:263px;
+	border-radius: 50%;
+	background-color: #474c4f;
+	background-image:url(../img/sevice.png);
+	background-repeat:no-repeat;
+	transition:0.5s;
+	margin-bottom:40px;
+}
+.serviceIcon1:hover{
+	background-color:#7b8488;
+}
+.airport {
+	background-position:15px 58px;
+}
+.airport:hover {
+	background-position:15px -154px;	
+}
+.wedding {
+	background-position:-308px 58px;
+}
+.wedding:hover {
+	background-position:-308px -154px;	
+}
+.prom{
+	background-position:-634px 58px;
+}
+.prom:hover {
+	background-position:-634px -154px;	
+}
+.grad{
+	background-position:-960px 58px;
+}
+.grad:hover {
+	background-position:-960px -154px;	
+}
+.birth{
+	background-position:-1282px 58px;
+}
+.birth:hover {
+	background-position:-1282px -154px;	
+}
+.concert {
+	background-position:-1605px 58px;
+}
+.concert:hover {
+	background-position:-1605px -154px;
+}
+.sport {
+	background-position:-1933px 58px;
+}
+.sport:hover {
+	background-position:-1933px -154px;
+}
+.party {
+	background-position:-2254px 58px;	
+}
+.party:hover {
+	background-position:-2254px -154px;	
+}
+
+/*icon end*/
+/*limo*/
+.limo {
+	background: #191d20;
+	padding:40px 0;	
+}
+.limo img {
+	margin:auto;	
+}
+.limo p ,.limo a{
+	font-family: 'Raleway', sans-serif;	
+	font-weight:400 ;
+	font-size:1.14em;
+}
+.limo a{
+	display:block;
+	color: #fff;
+	text-align:right;
+	font-size:1.71em;	
+	transition:0.5s;
+}
+.limo a:hover{
+	color: #ffdf06;			
+}
+
+/*footer top*/
+.footertop {
+	background: #161619;
+	font-family: 'Raleway', sans-serif;	
+	padding:20px 0;
+}
+.footertop h3 {
+	color: #ffdf06;	
+	font-size:1.71em;
+}
+.footertop ul{
+	padding-left:0;
+	list-style:none;
+}
+.footertop ul li a{
+	color: #d0d2d3;
+	line-height:30px;
+}
+.footertop .socialIcon a {
+	margin-right:20px;
+	color: #d0d2d3;	
+}
+.footertop .form-control {
+	border:none;
+	border-radius:0;
+	background: #333739;	
+}
+.footertop .btn-default {
+	background: #ffdf06;
+	border:none;
+	border-radius:0;
+	color: #000;	
+}
+.footerContact i, .footerContact p{
+	display:inline-block;		
+}
+.footerContact i{
+	margin-right:10px;	
+}
+.footerContact a {
+	color: #d0d2d3;	
+}
+/*footer*/
+footer {
+	padding:10px 0;
+	background: #000000;
+	font-family: 'Raleway', sans-serif;		
+}
+footer p {
+	font-size:12px;
+	margin-bottom:0;
+}
+footer a {
+	color:#ffdf06;	
+}
+.payment{
+	width:100%;
+	height:20px;
+	background:url(../img/payment.png) center no-repeat;
+}
+.speedline {
+	text-align:right;	
+}
+/*Rates*/
+.table-hover > tbody > tr:hover {
+	background-color:#ffdf06;
+	color: #000;	
+}
+/*Reservation*/
+.reserve {
+	padding-top:100px;	
+}
+.reserve h4 {
+	background:	#ffdf06;
+	color: #000;
+	padding:10px 0;
+	padding-left:5px;
+}
+.date {
+	width:100% !important;	
+}
+button, input, optgroup, select, textarea {color: #333;}
+
+/*fleet*/
+.fleetLayout {
+	background: #161619;
+	padding:30px 15px;	
+	margin-top:20px;
+}
+.fleetLayout h3{
+	margin-top:0;	
+	padding-left:15px;
+}
+.fleetLayout span {
+	padding-right:10px;	
+}
+.fleetLayout strong {
+	padding-right:20px;	
+}
+
+
+/*media queries*/
+@media (max-width: 768px) {
+	
+		.headerContact a span{
+			display:none;	
+		}
+		
+		.navbar-brand
+		{
+			width:55%;
+			text-align:right;
+		}
+		.star {
+			display:none !important;	
+		}
+		.navbar-default .pull-left,.navbar-default .pull-right {
+			float:none !important;	
+		}
+		.navbar-default ul {
+			margin:0;	
+			text-align:center;
+		}
+		.menu {
+			padding-top: 15%;	
+		}
+		.serviceIcon div{
+			display:none;	
+		}
+		
+		.limo ,.limo a{
+				text-align:center;
+			}
+		.limo img {
+			padding-top:40px;	
+		}
+	
+		footer p, .speedline{
+			text-align:center;
+			padding:10px 0;
+		}
+		.padd {
+			margin-bottom:40px !important;	
+		}
+		.nospace,.nospace1 {
+			padding-left:0;
+			padding-right:0;	
+		}
+		.fleetLayout {
+			margin-top:50px;	
+		}
+	 }
+@media (max-width: 991px) {
+	body {
+		font-size:11px;	
+	}
+	.navbar-default .navbar-nav > li > a {
+		font-size:12px ;	
+	}	
+.serviceIcon1{
+	width:180px;
+	height:180px;
+	border-radius: 50%;
+	background-color: #474c4f;
+	background-image:url(../img/sevice.png);
+	background-repeat:no-repeat;
+	/*transition:0.5s;*/
+	margin:auto;
+	margin-bottom:40px;
+	
+}	
+
+.airport {
+	background-position:-27px 20px;
+}
+.airport:hover {
+	background-position:-27px -190px;	
+}
+.wedding {
+	background-position:-350px 14px;
+}
+.wedding:hover {
+	background-position:-350px -196px;
+}
+.prom{
+	background-position:-677px 20px;
+}
+.prom:hover {
+	background-position:-677px -190px;
+}
+.grad{
+	background-position:-1002px 20px;
+}
+.grad:hover {
+	background-position:-1002px -190px;
+}
+.birth{
+	background-position:-1324px 20px;
+}
+.birth:hover {
+	background-position:-1324px -190px;	
+}
+.concert {
+	background-position:-1645px 20px;
+}
+.concert:hover {
+	background-position:-1645px -190px;
+}
+.sport {
+	background-position:-1973px 20px;
+}
+.sport:hover {
+	background-position:-1973px -190px;
+}
+.party {
+	background-position:-2294px 20px;	
+}
+.party:hover {
+	background-position:-2294px -190px;	
+}	
+	
+}
+	 
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+.serviceIcon1{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	background-color: #474c4f;
+	background-image:url(../img/sevice.png);
+	background-repeat:no-repeat;
+	transition:0.5s;
+	margin-bottom:40px;
+}	
+/*background position +34px , +29px*/
+.airport {
+	background-position:-16px 29px;
+}
+.airport:hover {
+	background-position:-16px -183px;	
+}
+.wedding {
+	background-position:-342px 29px;
+}
+.wedding:hover {
+	background-position:-342px -183px;	
+}
+.prom{
+	background-position:-668px 29px;
+}
+.prom:hover {
+	background-position:-668px -183px;	
+}
+.grad{
+	background-position:-994px 29px;
+}
+.grad:hover {
+	background-position:-994px -183px;	
+}
+.birth{
+	background-position:-1316px 29px;
+}
+.birth:hover {
+	background-position:-1316px -183px;	
+}
+.concert {
+	background-position:-1634px 29px;
+}
+.concert:hover {
+	background-position:-1634px -183px;
+}
+.sport {
+	background-position:-1962px 29px;
+}
+.sport:hover {
+	background-position:-1962px -183px;
+}
+.party {
+	background-position:-2283px 29px;	
+}
+.party:hover {
+	background-position:-2283px -183px;	
+}	
+	}
